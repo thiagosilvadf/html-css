@@ -23,8 +23,11 @@
                 <input type="date" name="data de nascimento" id="inascimento" required>
             </p>
             <p>
-                <label for="isexo">Sexo</label>
-                <input type="text" name="sexo" id="isexo" size="6" required>
+               <legend>Sexo</legend>
+               <input type="radio" name="sexo" id="isxmas">
+               <label for="isxmas">Masculino</label><br>
+               <input type="radio" name="sexo" id="isxfem">
+               <label for="isxfem">Feminino</label>
             </p>
             <p>
                 <label for="iemail">Email</label>
@@ -35,6 +38,29 @@
                 <input type="tel" name="tel" id="itel" required autocomplete="tel" size="10" placeholder="(xx) xxxxx-xxxx">
             </p>
         </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+
+            <input type="checkbox" name="Atletismo" id="iatle">
+            <label for="iatle">Atletismo</label><br>
+            <input type="checkbox" name="Basquete" id="ibas">
+            <label for="ibas">Basquete</label><br>
+            <input type="checkbox" name="Ciclismo" id="icic">
+            <label for="icic">Ciclismo</label><br>
+            <input type="checkbox" name="Corrida" id="icor">
+            <label for="icor">Corrida</label><br>
+            <input type="checkbox" name="Futebol" id="ifut">
+            <label for="ifut">Futebol</label><br>
+            <input type="checkbox" name="Luta" id="iluta">
+            <label for="iluta">Luta</label><br>
+            <input type="checkbox" name="Natação" id="inat">
+            <label for="inat">Natação</label><br>
+            <input type="checkbox" name="Tennis" id="itennis">
+            <label for="itennis">Tênnis</label><br>
+            <input type="checkbox" name="Voley" id="ivoley">
+            <label for="ivoley">Vôley</label>
+        </fieldset>
+
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
